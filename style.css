@@ -1,91 +1,167 @@
-body{
-    margin: 0;
-    padding: 0;
-    
+body {
+  margin: 0;
+  padding: 0;
 }
-.first-page{
-    margin-right: 200px;
-    margin-left: 200px;
+.first-page {
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
-  .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    padding: 10px;
-  }
-  .nav a {
-    color: #000000;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 18px;
-  }
-  .logo {
-    max-width: 150px; 
-     
-  }
-  section h2{
-    font-size: 50px;
-  }
-  .p1{
-    width: 800px;
-    font-size: 30px;
-    color: #505F98;
-  }
-  #button-1{
-    background-color: #111B47;
-    color: white;
-    padding:5px 50px 5px 50px;
-    border: none;
-    margin-right: 30px;
-  }
-  #button-2{
-    background-color:white;
-    color: black;
-    padding:5px 50px 5px 50px;
-    border: none;
-  }
-  .nav a:hover {
-    text-decoration: underline;
-  }
- 
-  header {
-    background-image: url(f5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(255,255,255,0.6);
-    background-blend-mode: lighten;
-    width: 100%;
-    height: 100vh;
-    
-    
-  }
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
- 
-  h1, h2, h3 {
-    color: #333;
-  }
-  section {
-    margin-bottom: 20px;
-  }
-  ul {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f1f1f1;
-  }
-  .body-content{
-    width: 100%;
-    display: flex;
-  }
-  .wr-2{
-    display: flex;
-  }
-  .wr-2-content-2 img{
-    font-size: 10px;
-  }
-  
+  padding: 10px;
+}
+.nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+.logo {
+  max-width: 150px;
+}
+section h2 {
+  font-size: 50px;
+}
+.p1 {
+  width: 800px;
+  font-size: 30px;
+  color: #505f98;
+}
+#button-1 {
+  background-color: #111b47;
+  color: white;
+  padding: 5px 50px 5px 50px;
+  border: none;
+  margin-right: 30px;
+}
+#button-2 {
+  background-color: white;
+  color: black;
+  padding: 5px 50px 5px 50px;
+  border: none;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-image: url(f5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  width: 100%;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+section {
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.body-content {
+  width: 100%;
+  display: flex;
+}
+.wr-2 {
+  display: flex;
+}
+.wr-2-content-2 img {
+  font-size: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.body-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #99a376;
+}
+.body-c-wr {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wr-1 {
+  text-align: center;
+}
+.wr-1 h2 {
+  color: #2c3e50;
+  font-size: 28px;
+}
+.wr-1 p {
+  color: #7f8c8d;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.wr-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.wr-2-content-1,
+.wr-2-content-2 {
+  flex: 1;
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.wr-2-content-1 img,
+.wr-2-content-2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+.wr-2-content-1 h3,
+.wr-2-content-2 h3 {
+  color: #2980b9;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.wr-2-content-1 p,
+.wr-2-content-2 p {
+  color: #34495e;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.body-c-img {
+  text-align: center;
+  margin-top: 20px;
+}
+.body-c-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: #fff;
+  margin-top: 20px;
+}
+.content{
+  background: #c2d099;
+}
