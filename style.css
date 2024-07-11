@@ -245,3 +245,11 @@ footer .social-icons a:hover {
   color: #666;
   line-height: 1.6;
 }
+#button-1:hover{
+  background-color: #090e28;
+  cursor: pointer;
+}
+#button-2:hover{
+  background-color: #ebf6ca;
+  cursor: pointer;
+}
